@@ -1,0 +1,13 @@
+#include "biblioteca.h"
+
+int somar(Calcular calcular, int entrada){ //Inicio da função, criação de parâmetros.
+calcular.resultado = calcular.valor1 + calcular.valor2; //Realização da operaçãio soma.
+if (entrada == calcular.resultado){ //Verificação se o resultado digitado pelo usuário está correto.
+    return 1; //Retorno positivo.
+}else{ //Caso o resultado esteja errado a mensagem a baixo será exibida na tela.
+    printf("Resultado incorreto.");
+}
+
+return 0;
+
+}
